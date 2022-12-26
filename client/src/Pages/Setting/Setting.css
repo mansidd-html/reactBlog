@@ -1,0 +1,73 @@
+.settings{
+    display: flex;
+}
+.settingsWrapper{
+    flex: 9;
+    padding: 20px;
+}
+.settingTitle{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.settingUpdateTitle{
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: lightcoral;
+}
+.settingDelteTitle{
+    color: red;
+    font-size:12px;
+    cursor: pointer;
+}
+.settingform{
+    display: flex;
+    flex-direction: column;
+}
+.settingPP{
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+.settingPP > img{
+    width: 70px;
+    height: 70px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+.settingPPIcon{
+    width: 25px;
+    height: 25px;
+    background-color: lightcoral;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.settingform > label{
+font-size: 20px;
+margin-top: 20px;
+}
+.settingform > input{
+    color: grey;
+    margin: 10px 0;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid grey;
+}
+.settingform >input:focus{
+    outline: none;
+}
+.settingUpdate{
+    width: 150px;
+    align-self: center;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: teal;
+    padding: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+}

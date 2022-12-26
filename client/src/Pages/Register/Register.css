@@ -1,0 +1,48 @@
+.register {
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #c9bdc9;
+    background: url("https://www.transparenttextures.com/patterns/black-linen.png");
+}
+.registerTitle{
+    font-size: 50px;
+}
+.registerForm{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.registerForm>label{
+    margin: 10px 0;
+}
+.registerForm>input{
+    padding: 10px;
+    background-color: white;
+    border: none;
+}
+.registerBtn{
+    position: relative;
+    margin-top: 20px;
+    cursor:pointer;
+    background-color: teal;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    align-self: center;
+}
+.registerLoginBtn{
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: lightcoral;
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+}
